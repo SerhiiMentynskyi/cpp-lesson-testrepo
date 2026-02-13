@@ -3,10 +3,13 @@ using namespace std;
 
 int main()
 {
-	cout << "Your first github repository\nCongratulations!";
-	int a{};
+	cout << "Your first github repository\nCongratulations!\n\n\n";
+	int a{}, b{}, c{};
 	cout << "a = ";
 	cin >> a;
-
+	cout << "b = ";
+	cin >> b;
+	c = a + b;
+	cout << a << " + " << b << " = " << c;
 	return 0;
 }
