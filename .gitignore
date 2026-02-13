@@ -1,0 +1,57 @@
+#  файли  Visual Studio 
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln
+.docstates
+
+# Build results 
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+build/
+out/
+
+# Intermediate files 
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.pch
+*.iobj
+*.ipdb
+
+# Executables & libs
+*.exe
+*.dll
+*.lib
+*.exp
+
+# CMake 
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio Cmake
+out/
+build/
+CMakeSettings.json
+
+# Generated files 
+*.vcxproj.user
+*.opensdf
+*.sdf
+*.db
+
+# Other
+*.tmp
+*.bak
+*.swp
+
